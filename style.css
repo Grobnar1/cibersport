@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yeseva+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+body{
+    background-color: #222222;
+    padding-bottom: 25px;
+}
+.container{
+    width: 50%;
+    margin: auto;
+}
+nav{
+    background-color: #222222;
+    box-shadow: 0px 5px 5px black;
+}
+.logo-group{
+    width: 49%;
+    display: inline-block;
+    margin: 20px 0;
+}
+.logo{
+    display: inline-block;
+    width: fit-content;
+    margin-left: 50%;
+}
+.logo-text{
+    display: inline-block;
+    width: fit-content;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+.links{
+    display: inline-block;
+    width: 49%;
+}
+.link-list-item{
+    display: inline-block;
+    width: fit-content;
+    margin: 5px;
+}
+.nav-link{
+    width: fit-content;
+    color: white;
+    text-decoration: none;
+}
+header{
+    background-image: url(./img/apex-legends-pathfinder-robot-emoticons-saluting-futuristic.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.header-container{
+    width: 95%;
+    margin: auto;
+}
+.header-title{
+    font-size: 75px;
+    font-weight: 700;
+    color: #4e4e4e;
+}
+.header-text{
+    font-size: 35px;
+    color: #4e4e4e;
+    margin-top: 40px;
+}
+.join-button{
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(100deg, #65dafe, #70ffcb);
+    padding: 25px 50px;
+    margin-top: 50px;
+    display: block;
+    width: fit-content;
+}
+.description{
+    margin: 75px 0;
+}
+.description-container{
+    display: flex;
+    gap: 10px;
+}
+.description-card{
+    width: 24%;
+}
+.description-image{
+    height: 100px;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.description-text{
+    color: #65d9fe;
+    font-size: 20px;
+    text-align: center;
+}
+.games-container{
+    box-shadow: 0 0 10px black;
+    padding: 25px 1px 10px 15px;
+}
+.title{
+    color: #65d9fe;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+.games-title{
+    margin-bottom: 25px;
+}
+.games-description{
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+}
+.game-name{
+    color: #70feca;
+}
+.game-line{
+    background-color: #70feca;
+    width: 100px;
+    height: 1px;
+    border-radius: 3px;
+    margin: 10px 0;
+}
+.game-description{
+    color: white;
+    font-weight: 300;
+}
+.game-image{
+    width: 49%;
+    display: inline-block;
+}
+.facts-title{
+    margin: 25px;
+}
+.facts-description{
+    color: white;
+    font-weight: 300;
+    text-align: center;
+}
+.join-container{
+    box-shadow: 0 0 10px black;
+    padding: 25px 0;
+}
+.join-title{
+    margin: 25px;
+}
+.join-line{
+    width: 30%;
+    margin: 20px auto;
+}
+.registration-box{
+    background-color: #65daff;
+    width: 80%;
+    height: 100px;
+    margin: auto;
+}
+.registration-text{
+    color: white;
+    width: 49%;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin: 30px auto;
+}
+.registration-button{
+    color: white;
+    background-color: black;
+    padding: 15px 50px;
+    margin: auto 60px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}

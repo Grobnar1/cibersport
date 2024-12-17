@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="registration-style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title-box">
+            <a class="back-button" href="./index.html">&lt</a>
+            <p class="title">Заявка на вступление</p>
+        </div>
+        <form>
+            <fieldset class="name-box">
+                <legend>Ваш никнейм в реальной жизни:&#41</legend>
+                <input class="name" placeholder="Имя" type="text">
+                <input class="name" placeholder="Фамилия" type="text">
+            </fieldset>
+            <div class="gender-box">
+                <p class="input-title">Ваш пол</p>
+                <div class="gender-choose-line">
+                    <input type="radio" name="gender" id="male" value="Мужской">
+                    <label class="input-title" for="male">М</label>
+                </div>
+                <div class="gender-choose-line">
+                    <input type="radio" name="gender" id="famle" value="Женский">
+                    <label class="input-title" for="famle">Ж</label>
+                </div>
+            </div>
+            <div class="input-line">
+                <input type="checkbox" name="im-adult" id="im-adult">
+                <label class="input-title" for="im-adult">Мне есть 18</label>
+            </div>
+            <div class="input-line">
+                <label class="input-title" for="choose-game">Ваша дисциплина</label>
+                <select name="selected-game" id="choose-game">
+                    <option value="cs-go">CS-GO</option>
+                    <option value="dota-2">Dota2</option>
+                    <option value="apex-legens">Apex legends</option>
+                </select>
+            </div>
+            <textarea class="more-information" name="more-information" placeholder="Дополнительня информация"></textarea>
+            <a href="" class="send-button">Отправить заявку</a>
+        </form>
+    </div>
+</body>
+</html>

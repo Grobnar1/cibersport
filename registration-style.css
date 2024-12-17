@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yeseva+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+body{
+    background-color: #222222;
+}
+.container{
+    width: 50%;
+    margin: 50px auto;
+    padding-bottom: 25px;
+    box-shadow: 0 0 10px black;
+}
+.title-box{
+    background-color: #65dbff;
+}
+.back-button{
+    padding: 12px 17px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: white;
+    text-decoration: none;
+    display: inline-block;
+    width: fit-content;
+}
+.title{
+    color: white;
+    display: inline-block;
+    width: 93%;
+    font-weight: 600;
+    text-align: center;
+    vertical-align: top;
+}
+form{
+    width: 95%;
+    margin: auto;
+}
+.name-box{
+    margin-top: 25px;
+}
+legend{
+    color: rgba(255, 255, 255, 0.838);
+}
+.name{
+    border-bottom: solid 2px white;
+    box-shadow: none;
+    background: none;
+    margin: 25px auto;
+    display: block;
+    outline: none;
+    width: 90%;
+    height: 40px;
+}
+.gender-box{
+    margin: 15px 0;
+}
+.input-title{
+    color: white;
+}
+.gender-choose-line{
+    display: inline-block;
+    margin: 15px 0;
+    margin-right: 15px;
+}
+.input-line{
+    margin: 20px 0;
+}
+select{
+    border-radius: 3px;
+    padding: 3px;
+}
+.more-information{
+    width: 100%;
+    height: 175px;
+    resize: none;
+    background: none;
+}
+textarea::placeholder{
+    color: white;
+}
+.send-button{
+    background: linear-gradient(45deg, #65dbfe, #70ffcc);
+    color: white;
+    width: 250px;
+    display: block;
+    margin: 25px auto;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+}
